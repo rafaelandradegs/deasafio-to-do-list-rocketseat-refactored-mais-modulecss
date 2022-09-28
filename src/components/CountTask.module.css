@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 64px;
+  width: 736px;
+  height: 19px;
+}
+
+.newTask {
+  color: var(--blue);
+  font-weight: 700;
+  font-size: 14px;
+}
+.fineshedTask {
+  color: var(--purple);
+  font-weight: 700;
+  font-size: 14px;
+}
+.spanCount {
+  justify-content: center;
+  align-items: center;
+  border-radius: 999px;
+  background-color: var(--gray-400);
+  padding: 2px 8px;
+  font-size: 0.785rem;
+  color: var(--gray-200);
+}
